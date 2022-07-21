@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/llopis/src/coral-demo-cor23/advisor-roofline/sum-para.c"
+           line_no="23"
+           routine="main._omp_fn.0"
+           is_vectorized="0"
+           self_time="7.825414E+01"
+           total_time="7.825414E+01"
+           trip_counts=""
+           func_instance="6"
+           priority="0"/>
+  <hotspot filename="/home/llopis/src/coral-demo-cor23/advisor-roofline/sum-para.c"
+           line_no="20"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.150000E+00"
+           trip_counts=""
+           func_instance="5"
+           priority="0"/>
+  <hotspot filename="/home/llopis/src/coral-demo-cor23/advisor-roofline/sum-para.c"
+           line_no="13"
+           routine="main"
+           is_vectorized="0"
+           self_time="8.000000E-02"
+           total_time="8.000000E-02"
+           trip_counts=""
+           func_instance="3"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

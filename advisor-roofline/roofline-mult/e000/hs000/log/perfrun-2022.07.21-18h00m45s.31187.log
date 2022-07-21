@@ -1,0 +1,97 @@
+13 [47604902413440] INFO perfrun.launcher <> - Launcher main begin
+15 [47604902413440] INFO perfrun.launcher <> - MessageCatalogInit finished
+15 [47604902413440] INFO perfrun.launcher <> - Launcher instance created
+15 [47604902413440] INFO perfrun.launcher <> - argc = 7; cmdline = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 7 --option-file /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000/config/runss.options 
+72 [47604902413440] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+72 [47604902413440] INFO perfrun.launcher <> - create file finder object
+72 [47604902413440] INFO perfrun.launcher <> - create a result directory: pattern = /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000 pid = 4294967295
+75 [47604902413440] INFO perfrun.sdk <> - checked that the directory /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000 is a local directory
+75 [47604902413440] INFO perfrun.sdk <> - the directory /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000 is located on a share or its FS ID is unknown 1196443219
+75 [47604902413440] INFO perfrun.sdk <> - checked that the directory /tmp/advixe-tmp-llopis is a local directory
+75 [47604902413440] INFO perfrun.sdk <> - the directory /tmp/advixe-tmp-llopis is a local directory with FS type ID 61267
+76 [47604902413440] INFO perfrun.launcher <> - Create a local result directory /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734 due to the user result path /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000 is located on a share
+76 [47604902413440] INFO perfrun.launcher <> - create data directory = /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0
+76 [47604902413440] INFO perfrun.launcher <> - create data directory = /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult/e000/hs000/data.0
+77 [47604902413440] INFO perfrun.launcher <> - Creating the master collection flag
+78 [47604902413440] INFO perfrun.launcher <> - Done creating the master collection flag
+82 [47605031036672] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+84 [47605031036672] INFO perfrun.sdk <> - Allocating TMU :/tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0/systemcollector-31187-f204.sc
+85 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+85 [47605031036672] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+85 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+85 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+85 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+85 [47605031036672] INFO perfrun.mrte <> - system-wide mode is 0
+85 [47605031036672] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+123 [47605031036672] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0
+123 [47605031036672] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=f204
+123 [47605031036672] INFO perfrun.mrte <> - Data directory: /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0
+123 [47605031036672] INFO perfrun.mrte <> - Mrte plugin is initialized
+123 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.tpss <> - initialize tpss controller
+124 [47605031036672] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+124 [47605031036672] INFO perfrun.tpss <> - default obj-size-min=1024
+124 [47605031036672] INFO perfrun.tpss <> - default hash-table-size=0
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47605031036672] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib32/runtime:/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime:/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib64:/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+124 [47604902413440] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib32/runtime/libittnotify_collector.so:/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify_collector.so
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0
+125 [47604902413440] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = f204
+125 [47604902413440] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+125 [47604902413440] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./mult
+125 [47604902413440] INFO perfrun.launcher <> - Launcher: command line to start after modification = /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/bin64/pin -error_file /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/libtpsstool.so -t /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib32/libtpsstool.so -server_name tpss_ipc.31187 -prd_dir /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0 -- ./mult
+126 [47604902413440] INFO perfrun.launcher <> - ProcessCreator object was created
+127 [47604902413440] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+130 [47605031036672] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:797
+130 [47605031036672] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:810
+133 [47605031036672] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:197
+137 [47605031036672] INFO perfrun.vdso <> - Helper runtool '/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/bin32/advixe-runss -dump-vdso -r /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734 --tmp-dir /tmp/advixe-tmp-llopis' returned 1
+244 [47605031036672] INFO perfrun.vdso <> - Helper runtool '/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/bin64/advixe-runss -dump-vdso -r /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734 --tmp-dir /tmp/advixe-tmp-llopis' returned 0
+244 [47605031036672] INFO perfrun.itt <> - start itt controller for pid #31192
+244 [47605031036672] INFO perfrun.tpss <> - start tpss controller for pid #31192
+294 [47604902413440] INFO perfrun.launcher <> - Launcher: all plugins were started
+294 [47604902413440] INFO perfrun.launcher <> - DirectoryMonitor object was created
+294 [47604902413440] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+294 [47604902413440] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+294 [47604902413440] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+294 [47604902413440] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+297 [47604902413440] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+5502 [47604902413440] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+5512 [47605031036672] INFO perfrun.itt <> - stop itt controller
+5512 [47605031036672] INFO perfrun.itt <> - detach itt controller
+5512 [47605031036672] INFO perfrun.tpss <> - stop tpss controller
+5512 [47605031036672] INFO perfrun.sdk <> - De-allocating TMU: /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0/systemcollector-31187-f204.sc
+5512 [47605031036672] INFO perfrun.system <> - closed the system trace file: /tmp/advixe-tmp-llopis/advixe-res-31187-36107276750725734/data.0/systemcollector-31187-f204.sc
+5513 [47604902413440] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+5513 [47604902413440] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+5513 [47604902413440] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+5513 [47604902413440] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+5513 [47604902413440] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:212
+5534 [47604902413440] INFO perfrun.launcher <> - Application exit code: 0
+5534 [47604902413440] INFO perfrun.launcher <> - Exit code: 0

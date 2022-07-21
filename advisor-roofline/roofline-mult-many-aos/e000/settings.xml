@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:boolean="http://www.w3.org/2001/XMLSchema#boolean" xmlns:int="http://www.w3.org/2001/XMLSchema#int" int:version="1">
+ <SurveyView int:survey_view_int_operations_mode="0">
+  <BottomUpGrid>
+   <ColumnStructure DefaultColumnLayout="Default"/>
+   <ColumnWidth int:fdFunctionName="360" int:fdLoopAnnotation="40" int:fdRecommendationPresence="128" int:fdTotalTime="86" int:fdSelfTime="81" int:fdCompilerOptInfoVectLoopTypeSplitting="154" int:fdCompilerOptInfoVectMsg="176" int:fdVectInfoInstSets="56" int:fdVectorGain="56" int:fdVectorLength="56" int:fdSelfGFLOPS="128" int:fdSelfArithmeticIntensity="128" int:fdMemory="89" int:fdTripCountMedian="96" int:fdTripCountOccurrences="96" int:fdVectInfoInstClasses="176" int:fdVectInfoVectDataTypes="72" int:fdCompilerOptDetails="128" int:fdLocation="90"/>
+  </BottomUpGrid>
+  <TopDownGrid>
+   <ColumnStructure DefaultColumnLayout="Top Down"/>
+  </TopDownGrid>
+  <RooflineChart rooflineState="{&quot;roofsState&quot;:{&quot;drambandwidth(singlenode)&quot;:{&quot;selected&quot;:true},&quot;drambandwidth&quot;:{&quot;selected&quot;:true},&quot;l1bandwidth&quot;:{&quot;selected&quot;:true},&quot;scalarl1bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;l2bandwidth&quot;:{&quot;selected&quot;:false},&quot;scalarl2bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;l3bandwidth&quot;:{&quot;selected&quot;:false},&quot;scalarl3bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;spvectorfmapeak&quot;:{&quot;selected&quot;:false},&quot;dpvectorfmapeak&quot;:{&quot;selected&quot;:false},&quot;scalaraddpeak&quot;:{&quot;selected&quot;:true},&quot;spvectoraddpeak&quot;:{&quot;selected&quot;:false},&quot;dpvectoraddpeak&quot;:{&quot;selected&quot;:false},&quot;integerscalaraddpeak&quot;:{&quot;selected&quot;:true},&quot;int64vectoraddpeak&quot;:{&quot;selected&quot;:false},&quot;int32vectoraddpeak&quot;:{&quot;selected&quot;:false}},&quot;threadCount4RoofIdx&quot;:14,&quot;packageCount&quot;:1,&quot;stackViewVisible&quot;:false,&quot;viewMode&quot;:&quot;onewideview&quot;,&quot;compareItems&quot;:[{&quot;caption&quot;:&quot;roofline-mult-many&quot;,&quot;path&quot;:&quot;/home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult-many/e000/e000.advixeexp&quot;}]}"/>
+ </SurveyView>
+ <workflow int:selected="4" boolean:accuracyEnable="false">
+  <pmRoofline>
+   <checked boolean:a1="false" boolean:a3="false" boolean:a6="false" boolean:a7="false"/>
+  </pmRoofline>
+ </workflow>
+ <FilterView boolean:VectorizedButtonChecked="true" boolean:NotVectorizedButtonChecked="true" boolean:FakeLoopButtonChecked="false" boolean:LibrariesButtonChecked="false" ModuleFilterValue="All Modules" SourceFilterValue="All Sources" LoopModeFilterValue="Loops And Functions" ThreadFilterValue="All Threads"/>
+</bag>

@@ -1,0 +1,7 @@
+84 [47285034235648] INFO mrtehelpers.mrteenv <> - Product libs directory: /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64
+84 [47285034235648] INFO mrtehelpers.mrteenv <> - File mask: advixe_tpssmrte_clrprof*
+103 [47285034235648] INFO mrtehelpers.mrteenv <> - File name: lib
+103 [47285034235648] INFO mrtehelpers.mrteenv <> - File mask: advixe_tpssmrte_clrprof*
+122 [47285034235648] INFO mrtehelpers.mrteenv <> - File name: lib
+122 [47285034235648] ERROR mrtehelpers.mrteenv <> - Failed to init shared librarylib located at /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:485
+122 [47285034235648] ERROR mrtehelpers.mrteenv <> - CLR support is disabled because profiler GUID is empty, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:308

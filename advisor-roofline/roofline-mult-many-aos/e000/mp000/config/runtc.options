@@ -1,0 +1,11 @@
+-r
+/home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult-many-aos/e000/mp000
+-quiet
+-zca
+/home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-mult-many-aos/e000/loop_annotations.def
+--tool=map
+--record-stack-frame
+--sample-size=300000
+--record-mem-allocations
+--
+./mult-many-aos

@@ -1,0 +1,10 @@
+
+=== Start: [2022/07/21 19:10:21] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-sum-para-vec/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/llopis/src/coral-demo-cor23/advisor-roofline/roofline-sum-para-vec/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2022/07/21 19:11:39] === 
