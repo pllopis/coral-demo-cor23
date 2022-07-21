@@ -1,0 +1,31 @@
+
+=== Start: [2022/07/21 21:43:12] === 
+Analysis started...
+Result file: /home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many-aos/e000/dp000/dp000.advixe 
+Found target process /home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many-aos (PID = 28846). Analysis started... 
+Loaded module: /home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many-aos. 
+Loaded module: /lib64/ld-linux-x86-64.so.2. 
+Loaded module: [vdso]. 
+Loaded module: /lib64/libm.so.6. 
+Loaded module: /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/intel-19.0.5-wvfmqbnhon3gjhmctxz4bfs6z7udbgix/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64/libiomp5.so. 
+Loaded module: /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib64/libgcc_s.so.1. 
+Loaded module: /lib64/libpthread.so.0. 
+Loaded module: /lib64/libc.so.6. 
+Loaded module: /lib64/libdl.so.2. 
+Loaded module: /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify.so. 
+Unloaded module: /home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many-aos. 
+Unloaded module: /lib64/ld-linux-x86-64.so.2. 
+Unloaded module: [vdso]. 
+Unloaded module: /lib64/libm.so.6. 
+Unloaded module: /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/intel-19.0.5-wvfmqbnhon3gjhmctxz4bfs6z7udbgix/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64/libiomp5.so. 
+Unloaded module: /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib64/libgcc_s.so.1. 
+Unloaded module: /lib64/libpthread.so.0. 
+Unloaded module: /lib64/libc.so.6. 
+Unloaded module: /lib64/libdl.so.2. 
+Unloaded module: /work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify.so. 
+Process /home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many-aos (PID = 28846) has terminated. 
+Warning: No site annotations were executed, so no Dependencies issues (problems and messages) can be found. 
+Application exit code: 0 
+Result file: /home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many-aos/e000/dp000/dp000.advixe 
+Analysis completed
+=== End: [2022/07/21 21:43:23] === 

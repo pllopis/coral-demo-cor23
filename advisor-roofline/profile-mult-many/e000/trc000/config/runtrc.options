@@ -1,0 +1,16 @@
+-r
+/home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many/e000/trc000
+-quiet
+-cs-file
+/home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int
+--jit-profiling
+--enable-cache-simulation
+--cache-config=28:32k:8w/256k:8w/2:35840k:20w
+--gpu-carm
+--target-gpu=none
+--
+./mult-many

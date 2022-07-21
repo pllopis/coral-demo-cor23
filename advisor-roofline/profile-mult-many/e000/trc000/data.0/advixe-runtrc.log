@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2022/07/21 22:04:41</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many</arg>
+  <arg>30614</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many</arg>
+  <arg>0x400000</arg>
+  <arg>0x6057ef</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2b1be3048000</arg>
+  <arg>0x2b1be326b14f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffe60df1000</arg>
+  <arg>0x7ffe60df1e6c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x2b1bf9273000</arg>
+  <arg>0x2b1bf9574127</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:55 2022</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/intel-19.0.5-wvfmqbnhon3gjhmctxz4bfs6z7udbgix/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64/libiomp5.so</arg>
+  <arg>0x2b1bf95a7000</arg>
+  <arg>0x2b1bf999b33f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib64/libgcc_s.so.1</arg>
+  <arg>0x2b1bf999c000</arg>
+  <arg>0x2b1bf9bb344f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <arg>0x2b1bf9bb4000</arg>
+  <arg>0x2b1bf9dcf487</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x2b1bf9dd0000</arg>
+  <arg>0x2b1bfa19c1df</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x2b1bfa19d000</arg>
+  <arg>0x2b1bfa3a010f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify.so</arg>
+  <arg>0x2b1bfb22a000</arg>
+  <arg>0x2b1bfb43665f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:04:56 2022</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/intel-19.0.5-wvfmqbnhon3gjhmctxz4bfs6z7udbgix/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64/libiomp5.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-haswell/gcc-4.8.5/gcc-8.4.0-fgpbrrd26pxv56imea5tnqj67vxh3a64/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="27" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/work/scitas-ge/richart/test_stacks/syrah/v1/opt/spack/linux-rhel7-skylake_avx512/gcc-8.4.0/intel-oneapi-advisor-2021.4.0-any7cfov5s4ujprr7plf7ks7xzoyqljz/advisor/2021.4.0/lib64/runtime/libittnotify.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="28" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many</arg>
+  <arg>30614</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Jul 21 22:05:31 2022</timestamp>
+</msg>
+<msg id="29" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="30" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/llopis/src/coral-demo-cor23/advisor-roofline/profile-mult-many/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="31" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="32" tool="runtool">
+  <type>log-end</type>
+  <arg>2022/07/21 22:05:35</arg>
+</msg>
+
+</log>
+

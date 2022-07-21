@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_MAP" >
+
+  <site filename="/home/llopis/src/coral-demo-cor23/advisor-roofline/mult-many.c"
+        line_no="23"
+        label="loop_site_2" 
+        loop_name="main" 
+        is_vectorized="-1">
+    <strides unit="2"
+             const="0"
+             variable="0" />
+  </site>
+
+</IntelParallelAdvisorSummary >
